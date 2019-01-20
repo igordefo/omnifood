@@ -1,0 +1,179 @@
+/* Big tablet to 1200px (width smaller then the 1140px row) */
+
+@media screen and (max-width: 1200px) {
+  .header__slogan {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row { padding: 0 2%; }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+@media screen and (max-width: 1023px) {
+  body { font-size: 18px; }
+  .section { padding: 60px 0; }
+
+  .features__text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .steps__link:last-of-type .steps__btn {
+    margin-right: 0;
+  }
+
+  .steps__box:last-child {
+    margin-top: 30px;
+  }
+
+  .steps__item {
+    margin-bottom: 40px;
+  }
+
+  .steps__item:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .steps__img {
+    width: 50%;
+  }
+
+  .icon-small {
+    margin-right: 4px;
+    width: 17px;
+  }
+
+  .cities__box {
+    font-size: 90%;
+  }
+
+  .plans__box {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .plans__cost {
+    font-size: 250%;
+  }
+
+  .form {
+    width: 80%;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media screen and (max-width: 767px) {
+  body { font-size: 16px; }
+  .section { padding: 30px 0; }
+
+  .row,
+  .features__text {
+    padding: 0 4%;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .navigation__list {
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+
+  .navigation__item {
+    display: block;
+  }
+
+  .navigation__link:link,
+  .navigation__link:visited {
+    display: block;
+    border-bottom: 0;
+    font-size: 100%;
+    padding: 10px 0;
+  }
+
+  .navigation__link:hover, 
+  .navigation__link:active {
+    border-bottom: 0;
+  }
+
+  .header__mobile-nav {
+    display: inline-block;
+  }
+
+  .navigation .header__mobile-nav .ion-navicon-round {
+    color: #555;
+  }
+
+  .navigation .header__mobile-nav {
+    margin-top: 10px;
+  }
+
+  .navigation .navigation__link:link,
+  .navigation .navigation__link:visited {
+    padding: 10px 0;
+    color: #555;
+  }
+  
+  .navigation .header__logo {
+    display: none;
+  }
+  .navigation .header__logo--black {
+    display: block;
+  }
+  .navigation .navigation__list {
+    margin-top: 10px;;
+  }
+
+  h1 {font-size: 180%;}
+
+  .title {font-size: 150%;}
+
+  .meals__action {
+    display: none;
+  }
+
+  .steps__item {
+    margin-bottom: 20px;
+  }
+
+  .steps__item:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .steps__number {
+    font-size: 120%;
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+  }
+
+  .steps__text {
+    line-height: 32px;
+  }
+
+  .steps__img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+
+@media screen and (max-width: 480px) {
+  .section {
+    padding: 25px 0;
+  }
+  .form {
+    width: 100%;
+  }
+}
+
