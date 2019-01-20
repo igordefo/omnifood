@@ -179,5 +179,20 @@
   .form {
     width: 100%;
   }
+
+  .steps__btn--android {
+    width: 131px;
+    height: auto;
+  }
+
+  .steps__btn--ios {
+    width: 145px;
+    height: auto;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
 }
 
