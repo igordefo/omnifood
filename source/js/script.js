@@ -92,5 +92,22 @@ $('.js--nav-icon').click(function() {
     } 
 });
 
+// Map
+
+var map = new GMaps({
+  div: '.map',
+  lat: 46.8366227,
+  lng: 35.3737082
+});
+
+map.addMarker({
+  lat: 46.8371687,
+  lng: 35.3534418,
+  title: 'Home',
+  infoWindow: {
+    content: '<p>My home</p>'
+  }
+});
+
 
 })
